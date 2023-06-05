@@ -1,6 +1,6 @@
-* {
+/** {
     outline: 1px solid yellowgreen;
-}
+}*/
 
 * {
     box-sizing: border-box;
@@ -29,7 +29,7 @@ body {
 
 .bg-black-up,
 .bg-black-bottom {
-    padding: 0 16.25%;
+    padding: 0 5%;
     color: white;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .bg-white {
-    padding: 160px 16.25%;
+    padding: 160px 5%;
     background: white;
     color: black;
     border-radius: 160px;
@@ -355,7 +355,7 @@ body {
 }
 
 .bg-white h2 {
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     margin-bottom: 80px;
 }
