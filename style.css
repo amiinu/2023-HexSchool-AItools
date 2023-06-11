@@ -426,8 +426,8 @@ header img {
     }
 }
 
-.filter:hover .pop-AI,
-.sequence:hover .pop-oldnew {
+.filter:hover > .pop-AI,
+.sequence:hover > .pop-oldnew {
     display: block;
 }
 
