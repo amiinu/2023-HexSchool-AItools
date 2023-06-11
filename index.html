@@ -5,27 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AI 工具王</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="bg-black-up">
-            <div class="header">
-                <h1><a href="#"><img
+        <section class="bg-black-up">
+            <!--header-->
+            <header>
+                <h1><a href="index.html"><img
                             src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/logo.png"
-                            alt="logo"></a></h1>
-                <ul class="header-menu">
+                            alt="AI 工具王"></a></h1>
+                <ul class="header-menu pc">
                     <li><a href="#">首頁</a></li>
                     <li><a href="#">定價</a></li>
                 </ul>
-                <a class="burger" href="#">☰</a>
-            </div>
+                <a class="burger mobile" href="#"><span class="material-symbols-outlined">menu</span></a>
+            </header>
+            <!--banner-->
             <div class="banner">
-                <h2>透過<br>AI工具王 的<br>強大模型<br>讓您的業務更聰明</h2>
-                <a href="#">開始使用</a>
+                <h2 class="pc">透過<br>AI 工具王的<br>強大模型<br>讓您的業務更聰明</h2>
+                <h2 class="mobile">透過<br>AI 工具王的<br>強大模型<br>讓您的業務<br>更聰明</h2>
+                <button type="button">開始使用</button>
                 <div class="deco">
                     <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png"
                         alt="deco">
@@ -35,31 +40,30 @@
                         alt="deco">
                 </div>
             </div>
+            <!--describe 產品描述-->
             <div class="describe">
                 <p>我們的服務</p>
                 <h2>我們相信透過 AI 技術，<br>包括圖像辨別、自然語言處理和機器翻譯等，能讓您更快、更準確地做出決策。</h2>
             </div>
+            <!--benefit 產品優勢-->
             <ul class="benefit">
                 <li>
-                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/flash%20on.png"
-                        alt="快速">
+                    <span class="material-symbols-outlined">flash_on</span>
                     <h3>快速</h3>
                     <p>我們先進的推理基礎設施提供了極短的響應時間，讓您的產品服務不間斷。</p>
                 </li>
                 <li>
-                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/auto%20awesome.png"
-                        alt="靈活">
+                    <span class="material-symbols-outlined">auto_awesome</span>
                     <h3>靈活</h3>
                     <p>我們的服務可以根據您的需求進行靈活調整，同時還可以滿足不同項目和預算的需求。</p>
                 </li>
                 <li>
-                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/library%20add.png"
-                        alt="擴充">
+                    <span class="material-symbols-outlined">library_add</span>
                     <h3>擴充</h3>
                     <p>我們的服務支持多種擴充選項，可以滿足您不斷增長的 AI 需求。</p>
                 </li>
             </ul>
-
+            <!--partner 合作夥伴-->
             <div class="partner">
                 <p>來自合作夥伴</p>
                 <ul>
@@ -97,19 +101,15 @@
                 <div class="box-left"></div>
                 <div class="box-right"></div>
             </div>
+            <!--review 顧客評價-->
             <ul class="review">
                 <li class="review-card">
                     <ul class="star">
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="一星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="二星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="三星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="四星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="五星"></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
                     </ul>
                     <p class="thoughts">非常喜歡 AI工具王 提供的 AI
                         模型租賃服務，使用起來非常方便，而且效果非常好。對於我們公司的業務來說，這個服務非常重要，因為我們需要大量的數據進行分析和預測，AI工具王 提供的 AI
@@ -126,16 +126,11 @@
                 </li>
                 <li class="review-card">
                     <ul class="star">
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="一星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="二星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="三星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="四星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="五星"></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
                     </ul>
                     <p class="thoughts">作為一家醫療器材公司，我們非常關注人工智能技術的應用，而 AI工具王 提供的 AI 模型租賃服務為我們帶來了很大的幫助。我們使用 AI工具王
                         的模型進行醫學影像分析和預測，這些模型非常精確，能夠幫助我們更好地診斷病情，提高治療效果。感謝 AI工具王 團隊的辛勤工作！</p>
@@ -151,16 +146,11 @@
                 </li>
                 <li class="review-card">
                     <ul class="star">
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="一星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="二星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="三星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="四星"></li>
-                        <li><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png"
-                                alt="五星"></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
+                        <li><span class="material-symbols-outlined">star</span></li>
                     </ul>
                     <p class="thoughts">我們銀行一直在尋找能夠幫助我們提高風險控制和客戶服務的解決方案，而 AI工具王 提供的 AI 模型租賃服務正好滿足了我們的需求。我們使用 AI工具王
                         的模型進行客戶信用評估和詐騙檢測等任務，這些模型非常準確，能夠幫助我們更好地控制風險，提高客戶滿意度。非常感謝 AI工具王 團隊的支持！</p>
@@ -175,19 +165,41 @@
                     </div>
                 </li>
             </ul>
-        </div>
-        <div class="bg-white">
-            <h2>這些超酷的應用，都來自 AI工具王</h2>
-            <div class="search">
-                <img class="magnifier"
-                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/search.png"
-                    alt="搜尋">
+        </section>
+        <section class="bg-white">
+            <h2 class="pc">這些超酷的應用，都來自 AI工具王</h2>
+            <h2 class="mobile">這些超酷的應用，<br>都來自 AI工具王</h2>
+            <!--搜尋欄位-->
+            <form class="search">
+                <label for=""><span class="magnifier material-symbols-outlined">search</span></label>
                 <input class="search-bar" type="search" placeholder="請輸入關鍵字搜尋">
-            </div>
-            <div class="search-list">
-                <a class="combobox">篩選<img
-                        src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/sliders-horizontal.png"
-                        alt="篩選"></a>
+            </form>
+            <nav class="search-list">
+                <div class="filter">
+                    <button class="combobox" type="button">
+                        篩選<span class="material-symbols-outlined">tune</span>
+                    </button>
+                    <div class="pop-AI">
+                        <ul>
+                            <p>AI 模型</p>
+                            <li><a href="#">所有模型</a></li>
+                            <li><a href="#">卡卡</a></li>
+                            <li><a href="#">杰杰</a></li>
+                            <li><a href="#">琪琪</a></li>
+                            <li><a href="#">旻旻</a></li>
+                        </ul>
+                        <ul>
+                            <p>類型</p>
+                            <li><a href="#">所有類型</a></li>
+                            <li><a href="#">聊天</a></li>
+                            <li><a href="#">影像辨識</a></li>
+                            <li><a href="#">翻譯</a></li>
+                            <li><a href="#">行銷</a></li>
+                            <li><a href="#">客服</a></li>
+                            <li><a href="#">生產力</a></li>
+                        </ul>
+                    </div>
+                </div>
                 <ul class="search-menu">
                     <li><a href="#">全部</a></li>
                     <li><a href="#">聊天</a></li>
@@ -197,10 +209,17 @@
                     <li><a href="#">客服</a></li>
                     <li><a href="#">生產力</a></li>
                 </ul>
-                <a class="combobox">由新到舊<img
-                        src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/keyboard%20arrow%20down.png"
-                        alt="下拉選單"></a>
-            </div>
+                <div class="sequence">
+                    <button class="combobox" type="button">
+                        由新到舊<span class="material-symbols-outlined">keyboard_arrow_down</span>
+                    </button>
+                    <ul class="pop-oldnew">
+                        <li><a href="#">由新到舊</a></li>
+                        <li><a href="#">由舊到新</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!--service 產品服務-->
             <ul class="service">
                 <li class="service-card">
                     <div class="pic">
@@ -217,9 +236,7 @@
                     </div>
                     <div class="AI-model">
                         <h5># 聊天</h5>
-                        <a href="#"><img
-                                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/share.png"
-                                alt="分享"></a>
+                        <a href="#"><span class="material-symbols-outlined">share</span></a>
                     </div>
                 </li>
                 <li class="service-card">
@@ -237,9 +254,7 @@
                     </div>
                     <div class="AI-model">
                         <h5># 影像辨識</h5>
-                        <a href="#"><img
-                                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/share.png"
-                                alt="分享"></a>
+                        <a href="#"><span class="material-symbols-outlined">share</span></a>
                     </div>
                 </li>
                 <li class="service-card">
@@ -257,9 +272,7 @@
                     </div>
                     <div class="AI-model">
                         <h5># 翻譯</h5>
-                        <a href="#"><img
-                                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/share.png"
-                                alt="分享"></a>
+                        <a href="#"><span class="material-symbols-outlined">share</span></a>
                     </div>
                 </li>
                 <li class="service-card">
@@ -277,9 +290,7 @@
                     </div>
                     <div class="AI-model">
                         <h5># 行銷</h5>
-                        <a href="#"><img
-                                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/share.png"
-                                alt="分享"></a>
+                        <a href="#"><span class="material-symbols-outlined">share</span></a>
                     </div>
                 </li>
                 <li class="service-card">
@@ -297,9 +308,7 @@
                     </div>
                     <div class="AI-model">
                         <h5># 客服</h5>
-                        <a href="#"><img
-                                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/share.png"
-                                alt="分享"></a>
+                        <a href="#"><span class="material-symbols-outlined">share</span></a>
                     </div>
                 </li>
                 <li class="service-card">
@@ -317,54 +326,50 @@
                     </div>
                     <div class="AI-model">
                         <h5># 生產力</h5>
-                        <a href="#"><img
-                                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/share.png"
-                                alt="分享"></a>
+                        <a href="#"><span class="material-symbols-outlined">share</span></a>
                     </div>
                 </li>
             </ul>
+            <!--page 頁碼-->
             <ul class="page">
                 <li><a href="#">1</a></li>
                 <li><a href="#">2</a></li>
                 <li><a href="#">3</a></li>
                 <li><a href="#">4</a></li>
                 <li><a href="#">5</a></li>
-                <li><a href="#"><img
-                            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/keyboard%20arrow%20right.png"
-                            alt="下一頁"></a></li>
+                <a class="nextpage" href="#"><span class="material-symbols-outlined">keyboard_arrow_right</span></a>
             </ul>
-        </div>
-
-        <div class="bg-black-bottom">
+        </section>
+        <section class="bg-black-bottom">
+            <!--call to action-->
             <div class="cta">
-                <h2>現在就來建立屬於你的服務吧！</h2>
-                <a class="start" href="#">開始使用<img
-                        src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/call%20made.png"
-                        alt="開始使用"></a>
+                <h2 class="pc">現在就來建立屬於你的服務吧！</h2>
+                <h2 class="mobile">現在就來建立<br>屬於你的服務吧！</h2>
+                <button class="start" type="button">開始使用<span class="material-symbols-outlined">call_made</span></a>
             </div>
+            <!--aside-->
             <div class="cta-side">
                 <div class="side-map">
                     <a href="#">首頁</a>
                     <a href="#">定價</a>
-                </div>
-                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/logo.png"
-                    alt="logo">
-            </div>
+                </div><a href="index.html"><img
+                        src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/logo.png"
+                        alt="AI 工具王"></a>
 
+            </div>
+            <!--footer-->
             <div class="footer">
-                <div class="footer-left">
+                <nav class="footer-left">
                     <h3>AI 工具王 © 2023</h3>
                     <ul class="sns">
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#">Twitter</a></li>
                         <li><a href="#">Instagram</a></li>
                     </ul>
-                </div>
-                <a href="#" class="totop">Back to top<img
-                        src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/arrow%20upward.png"
-                        alt="回到頁首"></a>
+                </nav>
+                <a href="#" class="totop">Back to top<span class="material-symbols-outlined">arrow_upward</span></a>
             </div>
-        </div>
+        </section>
     </div>
 </body>
 
